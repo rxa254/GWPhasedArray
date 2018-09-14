@@ -22,7 +22,7 @@
 # *.pdf
 
 ## Generated if empty string is given at "Please type another file name for output:"
-.pdf
+prl.pdf
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
@@ -31,6 +31,7 @@
 *-blx.aux
 *-blx.bib
 *.run.xml
+*Notes.bib
 
 ## Build tool auxiliary files:
 *.fdb_latexmk
