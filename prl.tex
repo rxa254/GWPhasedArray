@@ -1,0 +1,96 @@
+\documentclass[aps,prl,twocolumn,showpacs,superscriptaddress,groupedaddress]{revtex4-1}  % for review and submission
+%\documentclass[aps,preprint,showpacs,superscriptaddress,groupedaddress]{revtex4-1}  % for double-spaced preprint
+
+\usepackage{dcolumn}   % needed for some tables
+\usepackage{bm}        % for math
+\usepackage{amssymb}   % for math
+\usepackage{mathtools}  %mathtools is better than amsmath
+%\usepackage{color}
+\usepackage[pdftex]{graphicx}
+%\usepackage[dvips]{graphicx}
+\usepackage[usenames, dvipsnames, svgnames, table]{xcolor}
+\usepackage[colorlinks=true, citecolor=Blue,
+            linkcolor=BrickRed, urlcolor=ForestGreen]{hyperref}
+%\usepackage{mathptmx} %(obsolete)
+\usepackage{txfonts}
+\usepackage{mathrsfs}
+
+% avoids incorrect hyphenation, added Nov/08 by SSR
+\hyphenation{ALPGEN}
+\hyphenation{EVTGEN}
+\hyphenation{PYTHIA}
+
+
+\begin{document}
+
+\newcommand{\R}[1]{\textcolor{BrickRed}{#1}}
+\newcommand{\B}[1]{\textcolor{blue}{#1}}
+% The following information is for internal review, please remove them for submission
+
+\title{Terrestrial Generation of Gravitational Radiation}
+\author{Rana X Adhikari}
+\affiliation{Division of Physics, Math, and Astronomy,
+California Institute of Technology, Pasadena,
+CA 91125, USA}
+\date{\today}
+
+
+\begin{abstract}
+All gravitational-wave (GW) detectors are designed for the detection of astrophysical
+signals. The consensus in the GW community is that it is practically impossible to make a signal large enough to detect within the limits of current technology. Here I show that a phased array can be constructed to make a signal which is detectable on the earth using current GW detection technology. Terrestrial generation and detection of GWs can be used to test theories of gravity and for non-EM communication.
+\end{abstract}
+
+\pacs{}
+\maketitle
+
+Having a way to generate and detect gravitational waves would be great.
+We could test how the radiation works and if its really like GR.
+
+A bunch of people have thought about how to measure GWs in the past. Here is
+a list of those with some short descriptions:
+\begin{enumerate}
+\item dumbells
+\item atomic bombs
+\end{enumerate}
+
+\paragraph{Dumbells}
+Assuming we use a standard quadrupole radiator (a bar of length $L$ with
+a sphere of mass $M$ on each end), the far-field strain will be
+\begin{equation}
+h = \frac{2 G}{c^4 r} \ddot{I}
+\end{equation}
+as measured a distance $r$ away from the radiator.
+Plugging in some usual numbers for the physical dimensions and the rotation
+frequency...
+we can see that the measured strain would be way to small to detect with
+anything we have today (the Advanced LIGO design sensitivity is
+$\sim 10^{-24} / \sqrt{Hz}$).
+
+\paragraph{Phased Array}
+Phased arrays of electromagnetic radiators can be used to produce focused beams
+of radiation (e.g. the Very Large Array, the DSN, etc.) or to receive very weak
+signals.
+This is how phased arrays work...
+
+Here are some plots of the antenna pattern from having a N x N array of
+rotating bars:
+
+FIGURE
+
+
+\paragraph{Conclusion}
+So, as you can see, it would be hard and very expensive, but it can be done.
+
+
+{\it Acknowledgements.---}
+I would like to thank Dan Kennefick for initial discussions of this
+concept and to the students from Caltech's spring 2018 class on
+gravitational waves for much fruitful discussions.
+
+%%%%%% References %%%%%%
+\bibliography{RanaGWrefs}
+
+
+\end{document}
+%
+% ****** End of file template.aps ******
