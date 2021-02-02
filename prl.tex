@@ -1,4 +1,4 @@
-\documentclass[aps,prl,twocolumn,showpacs,superscriptaddress,groupedaddress]{revtex4-1}  % for review and submission
+\documentclass[aps,prl,twocolumn,showpacs,superscriptaddress,groupedaddress]{revtex4-2}  % for review and submission
 %\documentclass[aps,preprint,showpacs,superscriptaddress,groupedaddress]{revtex4-1}  % for double-spaced preprint
 
 \usepackage{dcolumn}   % needed for some tables
@@ -7,25 +7,19 @@
 \usepackage{mathtools}  %mathtools is better than amsmath
 %\usepackage{color}
 \usepackage[pdftex]{graphicx}
-%\usepackage[dvips]{graphicx}
-\usepackage[usenames, dvipsnames, svgnames, table]{xcolor}
+\usepackage[svgnames, table]{xcolor}
 \usepackage[colorlinks=true, citecolor=Blue,
             linkcolor=BrickRed, urlcolor=ForestGreen]{hyperref}
 %\usepackage{mathptmx} %(obsolete)
 \usepackage{txfonts}
 \usepackage{mathrsfs}
 
-% avoids incorrect hyphenation, added Nov/08 by SSR
-\hyphenation{ALPGEN}
-\hyphenation{EVTGEN}
-\hyphenation{PYTHIA}
-
+\newcommand{\R}[1]{\textcolor{BrickRed}{#1}}
+\newcommand{\B}[1]{\textcolor{blue}{#1}}
 
 \begin{document}
 
-\newcommand{\R}[1]{\textcolor{BrickRed}{#1}}
-\newcommand{\B}[1]{\textcolor{blue}{#1}}
-% The following information is for internal review, please remove them for submission
+
 
 \title{Terrestrial Generation of Gravitational Radiation}
 \author{Rana X Adhikari}
@@ -37,11 +31,28 @@ CA 91125, USA}
 
 \begin{abstract}
 All gravitational-wave (GW) detectors are designed for the detection of astrophysical
-signals. The consensus in the GW community is that it is practically impossible to make a signal large enough to detect within the limits of current technology. Here I show that a phased array can be constructed to make a signal which is detectable on the earth using current GW detection technology. Terrestrial generation and detection of GWs can be used to test theories of gravity and for non-EM communication.
+signals.
+The consensus in the GW community is that it is practically impossible to make a signal large enough to detect within the limits of current technology.
+Here I show that a phased array can be constructed to make a signal which is detectable on the earth using current GW detection technology.
+Terrestrial generation and detection of GWs can be used to test theories of gravity and for non-EM communication.
 \end{abstract}
 
-\pacs{}
+
 \maketitle
+
+
+\begin{enumerate}
+  \item everyone says you cant make the g-waves: here's why
+  \item It would be great if we could make the G-waves: here's why
+  \item Radiation of a dumbell
+  \item Antenna pattern of a single dumbell
+  \item How to calculate the array's antenna pattern
+  \item Strain amplitude at 10,000 km
+  \item Strain amplitude at 1 kpc
+  \item Issues about making the dumbells: failure analysis
+  \item Communication bandwidth: PM, AM, or something Hedy Lamarr?
+\end{enumerate}
+
 
 Having a way to generate and detect gravitational waves would be great.
 We could test how the radiation works and if its really like GR.
