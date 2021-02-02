@@ -101,6 +101,7 @@ ipython_config.py
 *-blx.aux
 *-blx.bib
 *.run.xml
+*Notes.bib
 
 ## Build tool auxiliary files:
 *.fdb_latexmk
